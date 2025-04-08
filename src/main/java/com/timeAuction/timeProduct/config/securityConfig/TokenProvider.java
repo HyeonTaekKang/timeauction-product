@@ -26,7 +26,7 @@ import java.util.Optional;
 @Slf4j
 public class TokenProvider {
 
-    @Value("${aws.cognito-region}")
+    @Value("${aws.cognito-poolid}")
     private String cognitoPoolId;
 
     @Value("${aws.cognito-region}")
